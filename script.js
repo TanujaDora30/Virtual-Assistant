@@ -71,7 +71,7 @@ btn.addEventListener("click", ()=> {
         window.open("https://www.instagram.com")
     }
     else {
-        speak(`this is what i found on internet regarding $(message)`)
-        window.open(`https://www.google.com/search?q=$(message)`)
+        speak(`this is what i found on internet regarding ${message}`)
+        window.open(`https://www.google.com/search?q=${message}`)
     }
  }
